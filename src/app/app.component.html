@@ -1,0 +1,11 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+  <span>Search Diagnosis </span>
+  <input type="text" [(ngModel)]="keyword" /><input
+    type="submit"
+    (click)="getDiagnosis()"
+  />
+</div>
+<pre>
+  {{diagnosisList | json }}
+</pre>
